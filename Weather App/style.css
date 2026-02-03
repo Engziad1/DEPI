@@ -1,0 +1,192 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #02012b;
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px;
+}
+nav select{
+    width: 80px;
+    background-color: #26263d;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+main{
+    padding-top:25px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+main h1{
+    
+    color: white;
+}
+main form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+main form input{
+    padding: 10px;
+}
+main form .search{
+    width: 320px;
+    background-color: #26263d;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+main form .submit{
+    background-color: #4357de;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+section{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+section .main-data{
+    width:50%;
+    display: inline-block;
+}
+section .main-data .place-degree{
+    background-color: #3737b8;
+    border-radius: 8px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+section .main-data .place-degree div{
+    display: inline-block;
+}
+section .main-data .place-degree div h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+section .main-data .place-degree div p{
+    color: rgb(181, 178, 178);
+    font-size: 14px;
+}
+section .main-data .place-degree p{
+    font-size: 52px;
+    font-weight: 600;
+}
+section .main-data .details-container{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .main-data .details{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    background-color: #242440;
+    color: white;
+    border-radius: 8px;
+    border: #32314f 0.5px solid;
+    width: 120px;
+}
+
+section .main-data h4{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+section .main-data .daily-forces-container{
+    display: flex;
+    gap: 15px;
+}
+section .main-data .daily-forces-container .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80px;
+    background-color: #252540;
+    padding: 10px;
+    border: #32314f 0.5px solid;
+    border-radius: 8px;
+
+}
+section .main-data .daily-forces-container .details div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+section .side-data{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    scrollbar-width: 5px;
+    width: 17%;
+    height: 470px;
+    background-color: #242440;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 15px;
+}
+section .side-data::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+section .side-data::-webkit-scrollbar-thumb{
+    background-color: #32314f;
+}
+section .side-data::-webkit-scrollbar-track{
+    border-radius: 8px;
+}
+section .side-data .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .side-data .main h4{
+    font-size: 14px;
+    color: white;
+}
+section .side-data .main select{
+    background-color: #3a3859;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+section .side-data .data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #2f2f4a;
+    padding: 5px;
+    border-radius: 8px;
+}
