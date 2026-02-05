@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search,settings" />
     <link rel="stylesheet" href="style.css">
     <title>Weather Now</title>
 </head>
 <body>
     <nav>
         <img src="Screenshot 2026-02-03 172030.png" alt="">
-        <select name="" id="">
-            <option value="units">units</option>
-            <option value="data">data</option>
-            <option value="degrees">degrees</option>
-        </select>
+        <div class="select">
+            <span class="material-symbols-outlined">settings</span>
+            <select name="" id="">
+                <option value="units">units</option>
+                <option value="data">data</option>
+                <option value="degrees">degrees</option>
+            </select>
+        </div>
     </nav>
     <main>
         <h1>How's The Sky Looking Today?</h1>
         <form action="">
-            <input type="search" class="search" placeholder="search for a place...">
+            <div class="search">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" class="search" placeholder="search for a place...">
+            </div>
             <input type="submit" class="submit" value="search">
         </form>
     </main>
     <section class="data">
         <div class="main-data">
             <div class="place-degree">
+                <img src="cloudy.png" class="cloudy" alt="">
+                <img src="sun.png" class="sun" alt="">
+                <img src="weather.png" class="weather" alt="">
+                <img src="sunny.png" class="sunny" alt="">
                 <div>
                     <h4>Berlin, Germany</h4>
                     <p>Teausday, Aug 5, 2025</p>
